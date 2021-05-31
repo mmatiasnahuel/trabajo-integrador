@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.contenedor-login-bg {
+    z-index: 4;
+    width: 0;
+    height: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1.5s;
+}
+
+
+
+#contenedor-login:target{
+    opacity: 1;
+    width: 100%;
+    height: 100vh;
+}
+
+.boton-cerrar {
+    border-radius: 20px;
+    background-color: black;
+    margin: 30px;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2em;
+}
+nav {
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-sizing: border-box;
+    top: 0;
+    width: 100%;
+    padding: 0 100px;
+    margin: 0;
+    box-shadow: 0px 1px 25px -5px rgba(0,0,0,0.5);
+    background: rgb(219,219,219);
+    background: radial-gradient(circle, rgba(219,219,219,1) 15%, rgba(230,230,230,1) 70%, rgba(240,240,240,1) 100%);
+
+}
+
+.logotext {
+    font-family: 'Rationale', sans-serif;
+    top: 0;
+    left: 0;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0px 0px;
+}
+
+.ic-navbar {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+
+.estilo-nombre {
+    margin: 0 4px;
+    color: rgb(27, 109, 193);
+    text-decoration:line-through;
+}
+
+nav ul {
+    width: 60%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    padding: 10px 4%;
+    transition: all 0.2s;
+}
+
+nav li:hover {
+    color: rgb(0, 0, 214) ;
+    cursor: pointer;
+}
+
+header {
+    margin-top: 47.78px;
+    width: 100%;
+    height: auto;
+    background-image: url(./fondo-portada.jpg);
+    background: linear-gradient(180deg, rgba(255,255,255,0), rgba(255,255,255,1)), url(./fondo-portada.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor-portada {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-portada div {
+    width: 30%;
+    height: 100%;
+    box-sizing:border-box;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.estilo-titulos {
+    margin:0;
+    color: #4688cc !important;
+    font-size: 4em !important;
+    font-family: 'Rationale', sans-serif !important;
+}
+
+.logo-portada {
+    width: 80%;
+}
+
+.portada-lado {
+    flex-direction: column;
+}
+
+.portada-lado ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    list-style: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+}
+
+.portada-lado li {
+    margin: 10px 0px;
+}
+
+hr {
+    margin: auto !important;
+    width: 70% !important; 
+    border: #adadad solid 2px;
+    background-color: #c0bebe;
+    border-radius: 25px;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 80%;
+    height: 100%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.contenedor-informacion {
+    justify-content: space-between;
+}
+
+.informacion-texto {
+    width: 100%;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+}
+
+.informacion-texto img {
+    /* width: 50%; */
+    float: right;
+}
+
+.contenedor-servicios {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-bs {
+    margin-top: 50px;
+    width: 80%;
+    object-fit: cover;
+}
+
+.fondo-oscuro {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+input, textarea {
+    padding: 15px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    background-color: rgb(223, 254, 255);
+    color: rgb(27, 109, 193);
+}
+
+.contenedor-formulario {
+    width: 60%;
+}
+
+.form-block {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    display: block;
+}
+
+.contenedor-login {
+    padding: 25px;
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 253, 253);
+    align-items: center;
+    border: 1px solid rgb(219, 216, 216);
+    box-shadow: 0px 1px 10px 1px rgb(182, 179, 179);
+}
+
+.contenedor-login img {
+    width: 35%;
+}
+
+.contenedor-login h1 {
+    color: rgb(107, 107, 107);
+    font-size: 1.5em;
+    margin: 15px 0px 30px 0px;
+}
+
+.contenedor-login input {
+    font-size: 1.3em;
+    height: 7vh;
+    width: 90%;
+    border: 1px solid rgb(219, 216, 216);
+    padding: 10px;
+}
+
+.contenedor-login button {
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    background-color: rgb(3, 24, 83);
+    color: white;
+    height: 7vh;
+    width: 90%;
+}
+
+.contenedor-login a {
+    color: rgb(107, 107, 107);
+    border-radius: 50px;
+    padding: 10px;
+    border: 1px solid rgb(219, 216, 216);
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.login-input-email {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.login-input-password {
+    border-top: none !important;
+    border-radius: 0px 0px 10px 10px;
+}

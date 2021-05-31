@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-sizing: border-box;
+    top: 0;
+    width: 100%;
+    padding: 0 100px;
+    margin: 0;
+    box-shadow: 0px 1px 25px -5px rgba(0,0,0,0.5);
+    background: rgb(219,219,219);
+    background: radial-gradient(circle, rgba(219,219,219,1) 15%, rgba(230,230,230,1) 70%, rgba(240,240,240,1) 100%);
+
+}
+
+.logotext {
+    font-family: 'Rationale', sans-serif;
+    top: 0;
+    left: 0;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0px 0px;
+}
+
+.ic-navbar {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+
+.estilo-nombre {
+    margin: 0 4px;
+    color: rgb(27, 109, 193);
+    text-decoration:line-through;
+}
+
+nav ul {
+    width: 60%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    padding: 10px 4%;
+    transition: all 0.2s;
+}
+
+nav li:hover {
+    color: rgb(0, 0, 214) ;
+    cursor: pointer;
+}
+
+header {
+    margin-top: 47.78px;
+    width: 100%;
+    height: auto;
+    background-image: url(./fondo-portada.jpg);
+    background: linear-gradient(180deg, rgba(255,255,255,0), rgba(255,255,255,1)), url(./fondo-portada.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor-portada {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-portada div {
+    width: 30%;
+    height: 100%;
+    box-sizing:border-box;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.estilo-titulos {
+    margin:0;
+    color: #4688cc;
+    font-size: 4em;
+    font-family: 'Rationale', sans-serif;
+}
+
+.logo-portada {
+    width: 80%;
+}
+
+.portada-lado {
+    flex-direction: column;
+}
+
+.portada-lado ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    list-style: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+}
+
+.portada-lado li {
+    margin: 10px 0px;
+}
+
+hr {
+    width: 80%;
+    border: #adadad solid 2px;
+    background-color: #c0bebe;
+    border-radius: 25px;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 80%;
+    height: 100%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.contenedor-informacion {
+    justify-content: space-between;
+}
+
+.informacion-texto {
+    width: 60%;
+}
+
+.informacion-texto p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+}
+
+.informacion-visual {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.informacion-visual img {
+    width: 100%;
+}
+
+.contenedor-servicios {
+    justify-content: center;
+}
