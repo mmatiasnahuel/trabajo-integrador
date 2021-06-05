@@ -373,6 +373,21 @@ input, textarea {
     }
 }
 
+@media (max-width: 425px) {
+    .estilo-titulos {
+        font-size: 1.7em;
+    }
+
+    .lista-info li {
+        font-size: 0.35em;
+    }
+
+    .contenedor-portada {
+        padding: 0 10px;
+    }
+    
+}
+
 
 .barra-navegacion{
     width: 100%;
