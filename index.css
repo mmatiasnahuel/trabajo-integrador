@@ -458,6 +458,9 @@ footer i {
     .form-block {
         height: 35px;
     }
+    input, textarea {
+        font-size: 1em;
+    }
 }
 
 @media (max-width: 425px) {
@@ -503,6 +506,9 @@ footer i {
 
     .form-block {
         height: 25px;
+    }
+    input, textarea {
+        font-size: 1em;
     }
 }
 
