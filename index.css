@@ -381,7 +381,12 @@ input, textarea {
     }
 
     .contenedor-login img {
-        visibility: hidden;
+        height: 0;
+    }
+
+    .contenedor-login h1{
+        font-size: 1em;
+        margin: 10px 0;
     }
 }
 
@@ -401,8 +406,14 @@ input, textarea {
         width: 90%;
     }
     .contenedor-login img {
-        visibility: hidden;
+        height: 0;
     }
+
+    .contenedor-login h1{
+        font-size: 1em;
+        margin: 10px 0;
+    }
+}
 }
 
 
