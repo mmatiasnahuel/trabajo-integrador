@@ -388,6 +388,9 @@ input, textarea {
         font-size: 1em;
         margin: 10px 0;
     }
+    .contenedor-login button {
+        margin: 5px 0px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -413,7 +416,10 @@ input, textarea {
         font-size: 1em;
         margin: 10px 0;
     }
-}
+
+    .contenedor-login button {
+        margin: 5px 0px;
+    }
 }
 
 
