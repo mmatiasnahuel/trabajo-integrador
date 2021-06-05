@@ -19,7 +19,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 1.5s;
+    transition: opacity 0.3s;
 }
 
 
@@ -487,6 +487,10 @@ footer i {
         margin-top: 15px;
         margin-left: 20px;
         font-size: 0.8em;
+    }
+
+    footer {
+        height: 10vh;
     }
 }
 
