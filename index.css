@@ -231,7 +231,6 @@ input, textarea {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 1.8em;
-    background-color: rgb(223, 254, 255);
     color: rgb(27, 109, 193);
 }
 
@@ -353,7 +352,7 @@ input, textarea {
     }
 
     .informacion-texto img {
-        width: 60%;
+        width: 51%;
     }
 
     .estilo-titulos {
