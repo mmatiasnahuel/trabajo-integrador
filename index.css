@@ -340,15 +340,17 @@ footer i {
     font-size: 1.8em;
 }
 
+.contenedor-footer-info img {
+    width: 20%;
+}
+
 .contenedor-footer-info {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.contenedor-footer-info img {
-    width: 20%;
-}
+
 @media (max-width: 1024px) {
     .lista-info li{
         font-size: 0.8em;
@@ -435,6 +437,15 @@ footer i {
     .contenedor-login button {
         margin: 5px 0px;
     }
+    .titulo-redes {
+        font-size: 1.3em;
+    }
+    
+    footer i {
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 1.3em;
+    }
 }
 
 @media (max-width: 425px) {
@@ -463,6 +474,15 @@ footer i {
 
     .contenedor-login button {
         margin: 5px 0px;
+    }
+    .titulo-redes {
+        font-size: 1em;
+    }
+    
+    footer i {
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 1em;
     }
 }
 
