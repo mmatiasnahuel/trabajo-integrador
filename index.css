@@ -378,6 +378,7 @@ input, textarea {
 
     .contenedor-login {
         width: 80%;
+        height: 80vh;
     }
 }
 
@@ -395,6 +396,7 @@ input, textarea {
     }
     .contenedor-login {
         width: 90%;
+        height: 80vh;
     }
 }
 
