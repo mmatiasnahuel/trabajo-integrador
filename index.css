@@ -133,7 +133,7 @@ header {
 .estilo-titulos {
     margin:0;
     color: #4688cc !important;
-    font-size: 4em;
+    font-size: 3.5em;
     font-family: 'Rationale', sans-serif !important;
 }
 
@@ -152,7 +152,7 @@ header {
     list-style: none;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 .portada-lado li {
@@ -333,6 +333,10 @@ input, textarea {
     .contenedor-formulario textarea {
         height: 300px;
     }
+
+    .contenedor-login {
+        width: 70%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -371,6 +375,10 @@ input, textarea {
     nav li, nav h2, nav a {
         font-size: 8px !important;
     }
+
+    .contenedor-login {
+        width: 80%;
+    }
 }
 
 @media (max-width: 425px) {
@@ -385,7 +393,9 @@ input, textarea {
     .contenedor-portada {
         padding: 0 10px;
     }
-    
+    .contenedor-login {
+        width: 90%;
+    }
 }
 
 
