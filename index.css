@@ -438,13 +438,13 @@ footer i {
         margin: 5px 0px;
     }
     .titulo-redes {
-        font-size: 1.3em;
+        font-size: 1em;
     }
     
     footer i {
         margin-top: 15px;
         margin-left: 20px;
-        font-size: 1.3em;
+        font-size: 1em;
     }
 }
 
@@ -476,13 +476,13 @@ footer i {
         margin: 5px 0px;
     }
     .titulo-redes {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     
     footer i {
         margin-top: 15px;
         margin-left: 20px;
-        font-size: 1em;
+        font-size: 0.8em;
     }
 }
 
