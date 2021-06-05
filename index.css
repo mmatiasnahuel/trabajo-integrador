@@ -510,6 +510,10 @@ footer i {
     input, textarea {
         font-size: 1em;
     }
+
+    .contenedor-portada {
+        height: 60vh;
+    }
 }
 
 
