@@ -212,6 +212,19 @@ p {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.card-imagen {
+    margin: 20px 0px;
+    width: 80%;
+    border: cadetblue 2px solid;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card-imagen img {
+    margin: 15px 0px;
+    width: 100%;
+}
+
+
 .contenedor-contacto {
     display: flex;
     flex-direction: column;
