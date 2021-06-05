@@ -344,11 +344,15 @@ footer i {
     width: 20%;
 }
 
+.contenedor-redes {
+    width: 40%;
+}
 .contenedor-footer-info {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 40%;
 }
 
 @media (max-width: 1024px) {
