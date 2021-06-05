@@ -378,11 +378,10 @@ input, textarea {
 
     .contenedor-login {
         width: 80%;
-        height: 80vh;
     }
 
     .contenedor-login img {
-        width: 5%;
+        visibility: hidden;
     }
 }
 
@@ -400,10 +399,9 @@ input, textarea {
     }
     .contenedor-login {
         width: 90%;
-        height: 80vh;
     }
     .contenedor-login img {
-        width: 5%;
+        visibility: hidden;
     }
 }
 
