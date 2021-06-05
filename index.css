@@ -179,10 +179,14 @@ section {
 }
 
 .contenedor-informacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .informacion-texto {
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -203,8 +207,8 @@ p {
 }
 
 .carousel-bs {
-    margin-top: 50px;
-    width: 100%;
+    margin-top: 20px;
+    width: 80%;
     object-fit: cover;
 }
 
@@ -235,7 +239,7 @@ p {
 label {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 input, textarea {
@@ -243,7 +247,7 @@ input, textarea {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: rgb(27, 109, 193);
 }
 
@@ -450,6 +454,10 @@ footer i {
         margin-left: 20px;
         font-size: 1em;
     }
+
+    .form-block {
+        height: 35px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -491,6 +499,10 @@ footer i {
 
     footer {
         height: 10vh;
+    }
+
+    .form-block {
+        height: 25px;
     }
 }
 
