@@ -369,7 +369,7 @@ footer i {
     width: 40%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
     .lista-info li{
         font-size: 0.8em;
     }
@@ -605,6 +605,10 @@ footer i {
         }
         input, textarea {
             font-size: 1em;
+        }
+        .contenedor-login-bg {
+            padding-top: 10px;
+            align-items: flex-start;
         }
     }
 }
