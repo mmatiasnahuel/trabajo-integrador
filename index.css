@@ -531,6 +531,10 @@ footer i {
     nav li, nav h2, nav a {
         font-size:8px !important;
     }
+    .contenedor-login a {
+        font-size: 0.8em;
+        padding: 5px;
+    }
 }
 
 @media (orientation:landscape) {
