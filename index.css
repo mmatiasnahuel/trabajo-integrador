@@ -576,20 +576,13 @@ footer i {
         }
     
         .contenedor-login {
-            width: 80%;
+            width: 60%;
         }
     
         .contenedor-login img {
             height: 0;
         }
     
-        .contenedor-login h1{
-            font-size: 1em;
-            margin: 10px 0;
-        }
-        .contenedor-login button {
-            margin: 5px 0px;
-        }
         .titulo-redes {
             font-size: 1em;
         }
@@ -609,9 +602,6 @@ footer i {
         .contenedor-login-bg {
             padding-top: 10px;
             align-items: flex-start;
-        }
-        .contenedor-login {
-            width: 60%;
         }
     }
 }
