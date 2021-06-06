@@ -427,7 +427,7 @@ footer i {
     }
 
     nav li, nav h2, nav a {
-        font-size: 8px !important;
+        font-size:10px !important;
     }
 
     .contenedor-login {
@@ -516,6 +516,10 @@ footer i {
     }
     .card-imagen {
         width: 100%;
+    }
+
+    nav li, nav h2, nav a {
+        font-size:8px !important;
     }
 }
 
