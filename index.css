@@ -225,7 +225,7 @@ p {
 .card-imagen {
     margin: 20px 0px;
     width: 80%;
-    border: cadetblue 2px solid;
+    border: #4688cc 2px solid;
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
@@ -271,7 +271,7 @@ input, textarea {
 
 .contenedor-login {
     padding: 25px;
-    width: 25%;
+    width: 30%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -303,7 +303,7 @@ input, textarea {
     border-radius: 10px;
     margin-top: 25px;
     margin-bottom: 40px;
-    background-color: rgb(3, 24, 83);
+    background-color: #4688cc;
     color: white;
     height: 7vh;
     width: 90%;
@@ -448,13 +448,13 @@ footer i {
         height: 0;
     }
 
-    /* .contenedor-login h1{
+    .contenedor-login h1{
         font-size: 1em;
         margin: 10px 0;
     }
     .contenedor-login button {
         margin: 5px 0px;
-    } */
+    }
     .titulo-redes {
         font-size: 1em;
     }
@@ -470,6 +470,9 @@ footer i {
     }
     input, textarea {
         font-size: 1em;
+    }
+    .contenedor-portada {
+        height: 60vh;
     }
 }
 
@@ -537,8 +540,7 @@ footer i {
     }
 }
 
-@media (orientation:landscape) {
-    @media (max-width: 768px) {
+@media (orientation:landscape) and (max-width: 768px) {
         .lista-info li{
             font-size: 0.4em;
         }
@@ -576,7 +578,7 @@ footer i {
         }
     
         .contenedor-login {
-            width: 50%;
+            width: 55%;
         }
     
         .contenedor-login img {
@@ -608,8 +610,10 @@ footer i {
             padding-top: 10px;
             align-items: flex-start;
         }
+        .contenedor-portada {
+            height: 60vh;
+        }
     }
-}
 
 .barra-navegacion{
     width: 100%;
