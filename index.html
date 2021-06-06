@@ -20,28 +20,51 @@
 <body>
     <div class="contenedor-login-bg" id="contenedor-login">
         <a class="boton-cerrar" href="#cerrar" id="cerrar">X</a>
-            <div class="contenedor-login">
-                <img src="https://th.bing.com/th/id/Rf9ba2df73b8e95305eded87ca99179e6?rik=%2bXi0t87pKKcfAg&riu=http%3a%2f%2fwww.joycekahngdds.com%2fassets%2fimages%2fcallout-1.png&ehk=QYK2PMqQpmSQfS%2fu%2bgMlift9%2bcZ32bY6OkNcVtObhyY%3d&risl=&pid=ImgRaw" alt="">
-                <h1>Iniciar Sesion</h1>
-                <input class="login-input-email" type="email" placeholder="Usuario">
-                <input class="login-input-password" type="password" placeholder="Password">
-                <button>ENTRAR</button>
-                <a href="index.html">Olvide mi password</a>
+        <div class="contenedor-login">
+            <img src="https://th.bing.com/th/id/Rf9ba2df73b8e95305eded87ca99179e6?rik=%2bXi0t87pKKcfAg&riu=http%3a%2f%2fwww.joycekahngdds.com%2fassets%2fimages%2fcallout-1.png&ehk=QYK2PMqQpmSQfS%2fu%2bgMlift9%2bcZ32bY6OkNcVtObhyY%3d&risl=&pid=ImgRaw"
+                alt="">
+            <h1>Iniciar Sesion</h1>
+            <input class="login-input-user" type="text" placeholder="Usuario">
+            <input class="login-input-password" type="password" placeholder="Password">
+            <button>ENTRAR</button>
+            <div class="contenedor-a-login">
+                <a href="">Olvide mi password</a>
+                <a href="#contenedor-registro">Registrarse</a>
             </div>
+        </div>
     </div>
-    <header  id="inicio">
+
+    <div class="contenedor-login-bg" id="contenedor-registro">
+        <a class="boton-cerrar" href="#cerrar" id="cerrar">X</a>
+        <div class="contenedor-login">
+            <img src="https://th.bing.com/th/id/Rf9ba2df73b8e95305eded87ca99179e6?rik=%2bXi0t87pKKcfAg&riu=http%3a%2f%2fwww.joycekahngdds.com%2fassets%2fimages%2fcallout-1.png&ehk=QYK2PMqQpmSQfS%2fu%2bgMlift9%2bcZ32bY6OkNcVtObhyY%3d&risl=&pid=ImgRaw"
+                alt="">
+            <h1>Registrarse</h1>
+            <input class="login-input-user" type="text" placeholder="Usuario">
+            <input class="login-input-email"type="email" placeholder="Email">
+            <input class="login-input-password" type="password" placeholder="Password">
+            <button>ENTRAR</button>
+            <div class="contenedor-a-login">
+                <a href="">Olvide mi password</a>
+                <a href="#contenedor-login">Ya tengo cuenta</a>
+            </div>
+        </div>
+    </div>
+
+    
+    <header id="inicio">
         <div class="barra-navegacion">
-        <nav>
-            <h2 class="logotext">RE<span class="estilo-nombre">VER</span>SE</h2>
-            <ul>
-                <li><a href="#inicio">INICIO</a></li>
-                <li><a href="#informacion">INFORMACION</a></li>
-                <li><a href="#servicios">TRABAJOS</a></li>
-                <li><a href="#contacto">CONTACTO</a></li>
-            </ul>
-            <a class="ic-navbar" id="boton-iniciar-sesion" href="#contenedor-login">INICIAR SESION</a>
-        </nav>
-    </div>
+            <nav>
+                <h2 class="logotext">RE<span class="estilo-nombre">VER</span>SE</h2>
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#informacion">INFORMACION</a></li>
+                    <li><a href="#servicios">TRABAJOS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+                <a class="ic-navbar" id="boton-iniciar-sesion" href="#contenedor-login">INICIAR SESION</a>
+            </nav>
+        </div>
         <div class="contenedor-portada">
             <div class="portada-lado">
                 <h2 class="estilo-titulos">INDIVIDUOS</h2>
@@ -117,29 +140,32 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-            <div class="informacion-texto">
-                <p>
-                    Desde RE<span class="estilo-nombre">VER</span>SE nos encargamos de observar, entender y encontrar la
-                    manera de que el trabajo colectivo e individual encuentre el sistema digital que
-                    le permita llegar a su mejor nivel de trabajo y asi alcanzar ese exito que estan buscando.
-                </p>
-                <img src="./imagen-individuo.png" alt="">
-                <img src="./imagen-productividad.png" alt="imagen alta productividad">
-                <p><strong>Preparate para llevar tu imagen personal a su mejor lado digital.</strong>
-                    Estamos listos para desarrollar la pagina web que te permita mostrar tu nivel profesional, social y
-                    artistico.
-                    Mostrate al mundo, a las empresas y a las personas que buscan tu talento de la mejor manera con
-                    RE<span class="estilo-nombre">VER</span>SE.
-                </p>
-                <p>Llegamos para ayudarte a encontrar el equilibrio perfecto de todos los sectores de tu empresa.
-                    Tenemos la capacidad y la experiencia de desarrollar sistemas completos para que la comunicacion
-                    entre cada parte de la compañia y el cliente pueda ser explotada al maximo y <strong>optimizar la
-                        eficienca, el reconocimiento y la imagen de tu marca.</strong>
-                </p>
-            </div>
+                <div class="informacion-texto">
+                    <p>
+                        Desde RE<span class="estilo-nombre">VER</span>SE nos encargamos de observar, entender y
+                        encontrar la
+                        manera de que el trabajo colectivo e individual encuentre el sistema digital que
+                        le permita llegar a su mejor nivel de trabajo y asi alcanzar ese exito que estan buscando.
+                    </p>
+                    <img src="./imagen-individuo.png" alt="">
+                    <img src="./imagen-productividad.png" alt="imagen alta productividad">
+                    <p><strong>Preparate para llevar tu imagen personal a su mejor lado digital.</strong>
+                        Estamos listos para desarrollar la pagina web que te permita mostrar tu nivel profesional,
+                        social y
+                        artistico.
+                        Mostrate al mundo, a las empresas y a las personas que buscan tu talento de la mejor manera con
+                        RE<span class="estilo-nombre">VER</span>SE.
+                    </p>
+                    <p>Llegamos para ayudarte a encontrar el equilibrio perfecto de todos los sectores de tu empresa.
+                        Tenemos la capacidad y la experiencia de desarrollar sistemas completos para que la comunicacion
+                        entre cada parte de la compañia y el cliente pueda ser explotada al maximo y <strong>optimizar
+                            la
+                            eficienca, el reconocimiento y la imagen de tu marca.</strong>
+                    </p>
+                </div>
         </section>
         <hr id="servicios">
-        <section class="contenedor-servicios" >
+        <section class="contenedor-servicios">
             <h2 class="estilo-titulos">CONOCE NUESTROS TRABAJOS</h2>
             </div>
             <div class="card-imagen">
@@ -156,21 +182,21 @@
             </div>
         </section>
         <hr id="contacto">
-        <section class="contenedor-contacto" >
+        <section class="contenedor-contacto">
             <h2 class="estilo-titulos">CONTACTATE CON NOSOTROS</h2>
             <p>Completa este formulario para comenzar a introducirte a vos o a tu empresa al mundo de internet.</p>
             <div class="contenedor-formulario">
-            <label class="form-block" for="nombre">Nombre:</label>
-            <input class="form-block" type="text" id="nombre" placeholder="ingrese su nombre">
-            <label class="form-block" for="telefono">Telefono:</label>
-            <input class="form-block" type="tel" id="telefono" placeholder="número de teléfono">
-            <label class="form-block" for="email">Email:</label>
-            <input class="form-block" type="email" id="email" placeholder="correo electrónico">
-            <label class="form-block" for="empresa">Empresa:</label>
-            <input class="form-block" type="text" id="empresa" placeholder="nombre de su empresa">
-            <label class="form-block" for="Mensaje">Mensaje:</label>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje de contacto"></textarea>
-        </div>
+                <label class="form-block" for="nombre">Nombre:</label>
+                <input class="form-block" type="text" id="nombre" placeholder="ingrese su nombre">
+                <label class="form-block" for="telefono">Telefono:</label>
+                <input class="form-block" type="tel" id="telefono" placeholder="número de teléfono">
+                <label class="form-block" for="email">Email:</label>
+                <input class="form-block" type="email" id="email" placeholder="correo electrónico">
+                <label class="form-block" for="empresa">Empresa:</label>
+                <input class="form-block" type="text" id="empresa" placeholder="nombre de su empresa">
+                <label class="form-block" for="Mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje de contacto"></textarea>
+            </div>
         </section>
     </main>
     <footer>
