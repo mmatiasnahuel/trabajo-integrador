@@ -523,6 +523,77 @@ footer i {
     }
 }
 
+@media (orientation:landscape) {
+    @media (max-width: 768px) {
+        .lista-info li{
+            font-size: 0.4em;
+        }
+    
+        p {
+            font-size: 0.8em;
+        }
+    
+        .carousel-bs {
+            width: 100%;
+        }
+    
+        .informacion-texto img {
+            width: 51%;
+        }
+    
+        .estilo-titulos {
+            font-size: 2em;
+        }
+    
+        .contenedor-formulario {
+            width: 100%;
+        }
+    
+        .contenedor-formulario textarea {
+            height: 200px;
+        }
+    
+        .contenedor-formulario label {
+            font-size: 0.9em;
+        }
+    
+        nav li, nav h2, nav a {
+            font-size:10px !important;
+        }
+    
+        .contenedor-login {
+            width: 80%;
+        }
+    
+        .contenedor-login img {
+            height: 0;
+        }
+    
+        .contenedor-login h1{
+            font-size: 1em;
+            margin: 10px 0;
+        }
+        .contenedor-login button {
+            margin: 5px 0px;
+        }
+        .titulo-redes {
+            font-size: 1em;
+        }
+        
+        footer i {
+            margin-top: 15px;
+            margin-left: 20px;
+            font-size: 1em;
+        }
+    
+        .form-block {
+            height: 35px;
+        }
+        input, textarea {
+            font-size: 1em;
+        }
+    }
+}
 
 .barra-navegacion{
     width: 100%;
