@@ -7,46 +7,6 @@ a{
     color: inherit;
 }
 
-.contenedor-login-bg {
-    z-index: 4;
-    width: 0;
-    height: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.3s;
-}
-
-
-
-#contenedor-login:target{
-    opacity: 1;
-    width: 100%;
-    height: 100vh;
-}
-
-#contenedor-registro:target {
-    opacity: 1;
-    width: 100%;
-    height: 100vh;
-}
-
-.boton-cerrar {
-    border-radius: 20px;
-    background-color: black;
-    margin: 30px;
-    padding: 20px;
-    color: white;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 2em;
-}
 nav {
     z-index: 3;
     position: fixed;
@@ -111,7 +71,6 @@ nav li:hover {
 }
 
 header {
-    /* margin-top: 47.78px; */
     width: 100%;
     height: auto;
     background-image: url(./fondo-portada.jpg);
@@ -125,6 +84,53 @@ header {
     height: 80vh;
     display: flex;
     justify-content: space-between;
+}
+
+.contenedor-portada-login {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.portada-login {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+    width: 40%;
+    background: radial-gradient(circle, rgba(219,219,219,0.4) 15%, rgba(230,230,230,0.4) 70%, rgba(240,240,240,0.4) 100%);
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-radius: 30px;
+}
+
+.portada-login input{
+    text-align: center;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 70%;
+    border: rgba(219,219,219,1) solid 1px ;
+}
+
+.contenedor-portada-login-botones {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.portada-login button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    height: 40px;
+    width: 35%;
+    border: rgba(219,219,219,1)solid 1px ;
+    border-radius: 5px;
+}
+
+.boton-recuperar-psw {
+    width: 71% !important;
 }
 
 .contenedor-portada div {
@@ -269,68 +275,6 @@ input, textarea {
 }
 
 
-.contenedor-login {
-    padding: 25px;
-    width: 30%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(253, 253, 253);
-    align-items: center;
-    border: 1px solid rgb(219, 216, 216);
-    box-shadow: 0px 1px 10px 1px rgb(182, 179, 179);
-}
-
-.contenedor-login img {
-    width: 35%;
-}
-
-.contenedor-login h1 {
-    color: rgb(107, 107, 107);
-    font-size: 1.5em;
-    margin: 15px 0px 30px 0px;
-}
-
-.contenedor-login input {
-    font-size: 1.3em;
-    height: 7vh;
-    width: 90%;
-    border: 1px solid rgb(219, 216, 216);
-    padding: 10px;
-}
-
-.contenedor-login button {
-    border-radius: 10px;
-    margin-top: 25px;
-    margin-bottom: 40px;
-    background-color: #4688cc;
-    color: white;
-    height: 7vh;
-    width: 90%;
-}
-
-.contenedor-login a {
-    color: rgb(107, 107, 107);
-    border-radius: 50px;
-    padding: 10px;
-    border: 1px solid rgb(219, 216, 216);
-    font-size: 1.1em;
-    text-decoration: none;
-}
-
-.login-input-user {
-    border-radius: 10px 10px 0px 0px;
-}
-
-.login-input-password {
-    border-top: none !important;
-    border-radius: 0px 0px 10px 10px;
-}
-
-.contenedor-a-login {
-    margin-top: 1em;
-}
-
 footer {
     width: 100%;
     height: 20vh;
@@ -397,10 +341,6 @@ footer i {
     .contenedor-formulario textarea {
         height: 300px;
     }
-
-    .contenedor-login {
-        width: 70%;
-    }
 }
 
 @media (max-width: 768px) {
@@ -439,22 +379,6 @@ footer i {
     nav li, nav h2, nav a {
         font-size:10px !important;
     }
-
-    .contenedor-login {
-        width: 80%;
-    }
-
-    .contenedor-login img {
-        height: 0;
-    }
-
-    .contenedor-login h1{
-        font-size: 1em;
-        margin: 10px 0;
-    }
-    .contenedor-login button {
-        margin: 5px 0px;
-    }
     .titulo-redes {
         font-size: 1em;
     }
@@ -488,21 +412,6 @@ footer i {
     .contenedor-portada {
         padding: 0 10px;
     }
-    .contenedor-login {
-        width: 90%;
-    }
-    .contenedor-login img {
-        height: 0;
-    }
-
-    .contenedor-login h1{
-        font-size: 1em;
-        margin: 10px 0;
-    }
-
-    .contenedor-login button {
-        margin: 5px 0px;
-    }
     .titulo-redes {
         font-size: 0.8em;
     }
@@ -533,10 +442,6 @@ footer i {
 
     nav li, nav h2, nav a {
         font-size:8px !important;
-    }
-    .contenedor-login a {
-        font-size: 0.8em;
-        padding: 5px;
     }
 }
 
@@ -577,19 +482,6 @@ footer i {
             font-size:10px !important;
         }
     
-        .contenedor-login {
-            width: 55%;
-        }
-    
-        .contenedor-login img {
-            height: 0;
-        }   
-        .contenedor-login h1{
-            margin: 10px 0;
-        }
-        .contenedor-login button {
-            margin: 5px 0px;
-        }
         .titulo-redes {
             font-size: 1em;
         }
@@ -605,10 +497,6 @@ footer i {
         }
         input, textarea {
             font-size: 1em;
-        }
-        .contenedor-login-bg {
-            padding-top: 10px;
-            align-items: flex-start;
         }
         .contenedor-portada {
             height: 60vh;
