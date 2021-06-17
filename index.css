@@ -387,6 +387,10 @@ footer i {
     .contenedor-formulario textarea {
         height: 300px;
     }
+    .portada-login {
+        width: 70%;
+        height: 500px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -444,6 +448,10 @@ footer i {
     .contenedor-portada {
         height: 60vh;
     }
+    .portada-login {
+        width: 70%;
+        height: 500px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -488,6 +496,10 @@ footer i {
 
     nav li, nav h2, nav a {
         font-size:8px !important;
+    }
+    .portada-login {
+        width: 90%;
+        height: 400px;
     }
 }
 
@@ -546,6 +558,10 @@ footer i {
         }
         .contenedor-portada {
             height: 60vh;
+        }
+        .portada-login {
+            width: 70%;
+            height: 500px;
         }
     }
 
